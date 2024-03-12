@@ -10,7 +10,7 @@ async def main():
         port=5432,
         user='postgres',
         database='products',
-        password='password'
+        password='root'
     )
 
     await connection.execute("INSERT INTO brand VALUES(DEFAULT, 'Levis')")
