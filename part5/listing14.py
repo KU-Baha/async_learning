@@ -13,6 +13,7 @@ async def positive_integers_async(until: int):
 async def main():
     async_generator = positive_integers_async(3)
     print(type(async_generator))
+    print(dir(async_generator))
 
     async for number in async_generator:
         print(f'Got number {number}')
