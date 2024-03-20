@@ -1,7 +1,7 @@
 import time
 
 freqs = {}
-
+# Link to file https://mattfowler.io/ data/googlebooks-eng-all-1gram-20120701-a.gz
 with open('googlebooks-eng-all-1gram-20120701-a', encoding='utf-8') as f:
     lines = f.readlines()
 
