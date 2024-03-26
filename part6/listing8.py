@@ -34,7 +34,7 @@ def merge_dictionaries(first: Dict[str, int],
 
 
 async def main(partition_size: int):
-    # Link to file https://mattfowler.io/ data/googlebooks-eng-all-1gram-20120701-a.gz
+    # Link to file https://mattfowler.io/data/googlebooks-eng-all-1gram-20120701-a.gz
     with open('googlebooks-eng-all-1gram-20120701-a', encoding='utf-8') as f:
         contents = f.readlines()
         loop = asyncio.get_running_loop()
